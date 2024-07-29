@@ -1,6 +1,5 @@
 # 内容：自建白名单
 # 域名关键字匹配
-DOMAIN-KEYWORD,dygod
 # 域名后缀匹配
-DOMAIN-SUFFIX,dygod.net
-DOMAIN-SUFFIX,meijumi.net
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,jd.com
