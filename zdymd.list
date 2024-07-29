@@ -1,0 +1,5 @@
+# 内容：自建白名单
+# 域名关键字匹配
+DOMAIN-KEYWORD,dygod
+DOMAIN-SUFFIX,dygod.net
+DOMAIN-SUFFIX,meijumi.net
