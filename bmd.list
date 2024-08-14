@@ -3,4 +3,4 @@
 # 域名后缀匹配
 DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
-
+DOMAIN-SUFFIX,gov.cn,DIRECT
