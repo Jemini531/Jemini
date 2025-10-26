@@ -160,7 +160,9 @@ proxy-groups:
 rules:
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,private_domain,直连
+  - RULE-SET,bmd_class,直连
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
+  - RULE-SET,zdy_class,🚀 默认代理
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,ai,🔯 美国故转
   - RULE-SET,github_domain,🚀 默认代理
@@ -190,6 +192,7 @@ rule-anchor:
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
   zdy_class: { <<: *class, url: "https://raw.githubusercontent.com/Jemini531/Jemini/refs/heads/main/zdymd.list"}
+  bmd_class: { <<: *class, url: "https://raw.githubusercontent.com/Jemini531/Jemini/refs/heads/main/bmd.list"}
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
   ai: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
