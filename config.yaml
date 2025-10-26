@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "机场订阅填到这里，两端引号不要去掉，不要填写到下方链接里去！！"
+    url: "https://sub.ssr.sh/link/2yKUSas2aBE0aojC?clash=2"
     type: http
     interval: 86400
     health-check:
@@ -12,7 +12,10 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
-
+    header:
+      User-Agent:
+      -"Clash"
+#global-ua:clash.meta
 # 节点信息
 proxies:
   - {name: 直连, type: direct}
